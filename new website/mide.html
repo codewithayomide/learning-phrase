@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="REYMIDE offers premium bespoke suits, tuxedos, and traditional outfits in Lagos Nigeria with fast 48-hour delivery." />
+  <title>Reymide | Premium Bespoke in 48 Hours</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- EmailJS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/index.min.js"></script>
+  <script type="text/javascript">
+    (function(){
+      emailjs.init("YOUR_EMAILJS_PUBLIC_KEY");
+    })();
+  </script>
+
+  <!-- Google Analytics -->
+  <script async src="[googletagmanager.com](https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID)"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'GA_MEASUREMENT_ID');
+  </script>
+
+  <!-- Facebook Pixel -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    '[connect.facebook.net](https://connect.facebook.net/en_US/fbevents.js)');
+    fbq('init', 'FB_PIXEL_ID');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+         src="[facebook.com](https://www.facebook.com/tr?id=FB_PIXEL_ID&ev=PageView&noscript=1)"/>
+  </noscript>
+</head>
+
+<body>
+
+  <!-- TOP ANNOUNCEMENT BAR -->
+  <div class="announcement-bar">
+    <img src="images/delivery-truck-fast-svgrepo-com (3).svg" alt="" class="delivery-icon">
+  Free delivery within Lagos | We deliver globally
+  </div>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-line"></div>
+    <div class="hero-logo">R E Y M I D E</div>
+    <div class="hero-slider">
+      <div class="slide active"><img src="images/hero1.png" alt="Man wearing bespoke suit in Lagos" loading="lazy"></div>
+      <div class="slide"><img src="images/Use AI Image Mar 30, 2026, 09_32_46.png" alt="Luxury tuxedo outfit in Lagos" loading="lazy"></div>
+      <div class="slide"><img src="images/Use AI Image Mar 31, 2026, 14_30_32.png" alt="Custom traditional outfit in Nigeria" loading="lazy"></div>
+    </div>
+
+    <div class="hero-overlay"></div>
+    <div class="hero-text">
+      <h2>BESPOKE IN 48 HOURS</h2>
+      <p>No Stories. No delays. Just delivery.</p>
+      <a href="https://wa.me/2349074474406?text=Hi Reymide,%20I’d%20like%20to%20order%20a%20custom%20outfit"
+         class="cta-button" target="_blank"
+         onclick="gtag('event','whatsapp_click',{product:'General Inquiry'}); fbq('track','Contact');">
+         Order on WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- PRODUCT GRID -->
+ <!-- PRODUCT GRID — replace your existing <section class="product-grid"> block -->
+<section class="product-grid">
+
+  <div class="product-card">
+    <div class="product-img-wrap" onclick="openModal('black-tuxedo', 'Black Embroidered Tuxedo', 'Premium tailoring with detailed embroidery on the shoulders and lapel. A statement piece delivered in 48 hours.', '₦500,000.00')">
+      <img src="images/hero3.png" alt="Black tuxedo Lagos" loading="lazy">
+    </div>
+    <div class="product-info">
+      <p class="product-name">Black Embroidered Tuxedo</p>
+      <p class="product-price">₦500,000.00</p>
+      <a class="product-whatsapp"
+         href="https://wa.me/2349074474406?text=Hi,%20I'm%20interested%20in%20the%20Black%20Embroidered%20Tuxedo"
+         target="_blank"
+         onclick="gtag('event','whatsapp_click',{product:'Black Embroidered Tuxedo'}); fbq('track','Contact');">
+        <img src="images/whatsapp-svgrepo-com.svg" alt="WhatsApp">
+      </a>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <div class="product-img-wrap" onclick="openModal('gray-suit', 'Gray Classic Suit', 'Timeless bespoke suit with a perfect fit. Crafted for the modern gentleman. Delivered in 48 hours.', '₦375,000.00')">
+      <img src="images/Use AI Image Mar 30, 2026, 09_40_26.png" alt="Gray suit Lagos" loading="lazy">
+    </div>
+    <div class="product-info">
+      <p class="product-name">Gray Classic Suit</p>
+      <p class="product-price">₦375,000.00</p>
+      <a class="product-whatsapp"
+         href="https://wa.me/2349074474406?text=Hi,%20I'm%20interested%20in%20the%20Gray%20Classic%20Suit"
+         target="_blank"
+         onclick="gtag('event','whatsapp_click',{product:'Gray Classic Suit'}); fbq('track','Contact');">
+        <img src="images/whatsapp-svgrepo-com.svg" alt="WhatsApp">
+      </a>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <div class="product-img-wrap" onclick="openModal('gray-suit', 'Gray Classic Suit', 'Timeless bespoke suit with a perfect fit. Crafted for the modern gentleman. Delivered in 48 hours.', '₦375,000.00')">
+      <img src="images/Use AI Image Mar 31, 2026, 14_55_50.png" alt="Gray suit Lagos" loading="lazy">
+    </div>
+    <div class="product-info">
+      <p class="product-name">Gray Classic Suit</p>
+      <p class="product-price">₦375,000.00</p>
+      <a class="product-whatsapp"
+         href="https://wa.me/2349074474406?text=Hi,%20I'm%20interested%20in%20the%20Gray%20Classic%20Suit"
+         target="_blank"
+         onclick="gtag('event','whatsapp_click',{product:'Gray Classic Suit'}); fbq('track','Contact');">
+        <img src="images/whatsapp-svgrepo-com.svg" alt="WhatsApp">
+      </a>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <div class="product-img-wrap" onclick="openModal('gray-suit', 'Gray Classic Suit', 'Timeless bespoke suit with a perfect fit. Crafted for the modern gentleman. Delivered in 48 hours.', '₦375,000.00')">
+      <img src="images/Use AI Image Mar 31, 2026, 14_54_52.png" alt="Gray suit Lagos" loading="lazy">
+    </div>
+    <div class="product-info">
+      <p class="product-name">Gray Classic Suit</p>
+      <p class="product-price">₦375,000.00</p>
+      <a class="product-whatsapp"
+         href="https://wa.me/2349074474406?text=Hi,%20I'm%20interested%20in%20the%20Gray%20Classic%20Suit"
+         target="_blank"
+         onclick="gtag('event','whatsapp_click',{product:'Gray Classic Suit'}); fbq('track','Contact');">
+        <img src="images/whatsapp-svgrepo-com.svg" alt="WhatsApp">
+      </a>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <div class="product-img-wrap" onclick="openModal('gray-suit', 'Gray Classic Suit', 'Timeless bespoke suit with a perfect fit. Crafted for the modern gentleman. Delivered in 48 hours.', '₦375,000.00')">
+      <img src="images/hero1.png" alt="Gray suit Lagos" loading="lazy">
+    </div>
+    <div class="product-info">
+      <p class="product-name">Gray Classic Suit</p>
+      <p class="product-price">₦375,000.00</p>
+      <a class="product-whatsapp"
+         href="https://wa.me/2349074474406?text=Hi,%20I'm%20interested%20in%20the%20Gray%20Classic%20Suit"
+         target="_blank"
+         onclick="gtag('event','whatsapp_click',{product:'Gray Classic Suit'}); fbq('track','Contact');">
+        <img src="images/whatsapp-svgrepo-com.svg" alt="WhatsApp">
+      </a>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <div class="product-img-wrap" onclick="openModal('gray-suit', 'Gray Classic Suit', 'Timeless bespoke suit with a perfect fit. Crafted for the modern gentleman. Delivered in 48 hours.', '₦375,000.00')">
+      <img src="images/Use AI Image Mar 30, 2026, 09_40_26.png" alt="Gray suit Lagos" loading="lazy">
+    </div>
+    <div class="product-info">
+      <p class="product-name">Gray Classic Suit</p>
+      <p class="product-price">₦375,000.00</p>
+      <a class="product-whatsapp"
+         href="https://wa.me/2349074474406?text=Hi,%20I'm%20interested%20in%20the%20Gray%20Classic%20Suit"
+         target="_blank"
+         onclick="gtag('event','whatsapp_click',{product:'Gray Classic Suit'}); fbq('track','Contact');">
+        <img src="images/whatsapp-svgrepo-com.svg" alt="WhatsApp">
+      </a>
+    </div>
+  </div>
+
+   <div class="product-card">
+    <div class="product-img-wrap" onclick="openModal('gray-suit', 'Gray Classic Suit', 'Timeless bespoke suit with a perfect fit. Crafted for the modern gentleman. Delivered in 48 hours.', '₦375,000.00')">
+      <img src="images/Use AI Image Mar 31, 2026, 14_54_52.png" alt="Gray suit Lagos" loading="lazy">
+    </div>
+    <div class="product-info">
+      <p class="product-name">Gray Classic Suit</p>
+      <p class="product-price">₦375,000.00</p>
+      <a class="product-whatsapp"
+         href="https://wa.me/2349074474406?text=Hi,%20I'm%20interested%20in%20the%20Gray%20Classic%20Suit"
+         target="_blank"
+         onclick="gtag('event','whatsapp_click',{product:'Gray Classic Suit'}); fbq('track','Contact');">
+        <img src="images/whatsapp-svgrepo-com.svg" alt="WhatsApp">
+      </a>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <div class="product-img-wrap" onclick="openModal('black-tuxedo', 'Black Embroidered Tuxedo', 'Premium tailoring with detailed embroidery on the shoulders and lapel. A statement piece delivered in 48 hours.', '₦500,000.00')">
+      <img src="images/hero3.png" alt="Black tuxedo Lagos" loading="lazy">
+    </div>
+    <div class="product-info">
+      <p class="product-name">Black Embroidered Tuxedo</p>
+      <p class="product-price">₦500,000.00</p>
+      <a class="product-whatsapp"
+         href="https://wa.me/2349074474406?text=Hi,%20I'm%20interested%20in%20the%20Black%20Embroidered%20Tuxedo"
+         target="_blank"
+         onclick="gtag('event','whatsapp_click',{product:'Black Embroidered Tuxedo'}); fbq('track','Contact');">
+        <img src="images/whatsapp-svgrepo-com.svg" alt="WhatsApp">
+      </a>
+    </div>
+  </div>
+  <!-- Copy the card block above for each new product -->
+
+</section>
+
+
+<!-- MODAL — replace your existing <div id="productModal"> block -->
+<div id="productModal" class="modal" onclick="handleModalOutsideClick(event)">
+  <div class="modal-content">
+    <span class="modal-close" onclick="closeModal()">&times;</span>
+
+    <!-- IMAGE SLIDER -->
+    <div class="modal-slider-wrap">
+      <button class="slide-btn prev" onclick="changeModalSlide(-1)">&#8249;</button>
+      <div class="modal-slides-container">
+        <img id="modalSlide1" src="" alt="Front view">
+        <img id="modalSlide2" src="" alt="Back view">
+      </div>
+      <button class="slide-btn next" onclick="changeModalSlide(1)">&#8250;</button>
+      <div class="modal-dots">
+        <span class="dot active" onclick="goToModalSlide(0)"></span>
+        <span class="dot" onclick="goToModalSlide(1)"></span>
+      </div>
+    </div>
+
+    <!-- PRODUCT DETAILS -->
+    <div class="modal-details">
+      <h3 id="modalTitle"></h3>
+      <p id="modalDesc"></p>
+      <p id="modalPrice" class="modal-price"></p>
+      <a id="modalWhatsapp" href="#" class="modal-cta" target="_blank"
+         onclick="gtag('event','whatsapp_click',{product:document.getElementById('modalTitle').textContent}); fbq('track','Contact');">
+        Order on WhatsApp
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- STICKY WHATSAPP BUTTON -->
+  <div class="whatsapp-container">
+    <a href="https://wa.me/2349074474406?text=Hi,%20I'd%20like%20to%20order%20a%20custom%20outfit" 
+       class="whatsapp-sticky" 
+       target="_blank"
+       onclick="gtag('event','whatsapp_click',{product:'Sticky Button'}); fbq('track','Contact');">
+      <img src="images/whatsapp-business-app-black-and-white-26479.svg" alt="WhatsApp icon">
+    </a>
+    <div class="whatsapp-tooltip">
+      <div class="tooltip-arrow"></div>
+      <p>Hi 👋 We are online!</p>
+    </div>
+  </div>
+
+  <!-- TESTIMONIALS SECTION -->
+  <section class="testimonials-section">
+    <h2>What Our Clients Say</h2>
+    
+    <!-- TESTIMONIAL FORM -->
+    <div class="testimonial-form-container">
+      <h3>Leave Your Feedback</h3>
+      <form id="testimonialForm" class="testimonial-form">
+        <input type="text" id="testName" placeholder="Your Name" required>
+        <input type="email" id="testEmail" placeholder="Your Email" required>
+        <textarea id="testComment" placeholder="Your feedback..." rows="4" required></textarea>
+        
+        <div class="rating-input">
+          <label>Rating:</label>
+          <div class="stars">
+            <span class="star" data-value="1">★</span>
+            <span class="star" data-value="2">★</span>
+            <span class="star" data-value="3">★</span>
+            <span class="star" data-value="4">★</span>
+            <span class="star" data-value="5">★</span>
+          </div>
+          <input type="hidden" id="testRating" value="5">
+        </div>
+        
+        <button type="submit" class="submit-btn">Submit Feedback</button>
+      </form>
+    </div>
+
+    <!-- TESTIMONIALS GRID -->
+    <div class="testimonials-grid">
+      <!-- Left Column -->
+      <div class="testimonials-column">
+        <div class="testimonial-card">
+          <h4 class="testimonial-name">Chioma Okafor</h4>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">Outstanding quality and fast delivery. Highly recommend!</p>
+        </div>
+        <div class="testimonial-card">
+          <h4 class="testimonial-name">Tunde Adeyemi</h4>
+          <div class="testimonial-stars">★★★★☆</div>
+          <p class="testimonial-text">Great craftsmanship and attention to detail.</p>
+        </div>
+        <div class="testimonial-card">
+          <h4 class="testimonial-name">Amara Nwosu</h4>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">Best bespoke suits in Lagos. Worth every naira!</p>
+        </div>
+      </div>
+
+      <!-- Center Column -->
+      <div class="testimonials-column">
+        <div class="testimonial-card">
+          <h4 class="testimonial-name">Ibrahim Hassan</h4>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">48-hour delivery is lightning fast!</p>
+        </div>
+        <div class="testimonial-card">
+          <h4 class="testimonial-name">Zainab Mohammed</h4>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">Exceeded expectations. Will order again!</p>
+        </div>
+        <div class="testimonial-card">
+          <h4 class="testimonial-name">David Okonkwo</h4>
+          <div class="testimonial-stars">★★★★☆</div>
+          <p class="testimonial-text">Professional team, stunning results.</p>
+        </div>
+        <div class="testimonial-card">
+          <h4 class="testimonial-name">Grace Olumide</h4>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">Reymide is my go-to for custom outfits.</p>
+        </div>
+      </div>
+
+      <!-- Right Column -->
+      <div class="testimonials-column">
+        <div class="testimonial-card">
+          <h4 class="testimonial-name">Seun Balogun</h4>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">Fast, reliable, and absolutely professional!</p>
+        </div>
+        <div class="testimonial-card">
+          <h4 class="testimonial-name">Nneka Eze</h4>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">Best decision for my wardrobe upgrade.</p>
+        </div>
+        <div class="testimonial-card">
+          <h4 class="testimonial-name">Kayode Jimoh</h4>
+          <div class="testimonial-stars">★★★★☆</div>
+          <p class="testimonial-text">Top-notch customer service and quality!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- FOOTER -->
+  <footer class="footer">
+    <hr class="footer-divider">
+
+    <div class="footer-logo">
+      <h2>R E Y M I D E<sup>®</sup></h2>
+    </div>
+
+    <div class="footer-links">
+      <span>About</span>
+      <span>Terms</span>
+      <span>Privacy Policy</span>
+    </div>
+
+    <div class="footer-socials">
+      <a href="https://www.pinterest.com/reymide" target="_blank" aria-label="Pinterest">
+        <img src="images/pinterest-color-svgrepo-com.svg" alt="Pinterest">
+      </a>
+      <a href="https://www.instagram.com/reymide" target="_blank" aria-label="Instagram">
+        <img src="images/instagram-svgrepo-com.svg" alt="Instagram">
+      </a>
+      <a href="https://www.facebook.com/reymide" target="_blank" aria-label="Facebook">
+        <img src="images/facebook-svgrepo-com.svg" alt="Facebook">
+      </a>
+      <a href="https://www.twitter.com/reymide" target="_blank" aria-label="Twitter">
+        <img src="images/twitter-svgrepo-com (1).svg" alt="Twitter">
+      </a>
+    </div>
+
+    <div class="footer-copy">
+      <p>© 2026 REYMIDE</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
